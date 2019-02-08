@@ -6,3 +6,8 @@ class Circle:
 	
 	def values(self):
 		print("Raduis= ",self.raduis, "x=", self.x, "y=", self.y)
+
+	def changevalues(self,raduis,x,y):
+		self.x=x
+		self.y=y
+		self.raduis=raduis
